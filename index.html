@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grupo 12</title>
+    <title>GENIS BOLDU</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding-top: 130px;
+            padding-top: 180px; /* Espacio para el header + nav */
             line-height: 1.6;
         }
 
@@ -22,12 +22,12 @@
             left: 0;
             width: 100%;
             z-index: 1000;
-            margin-bottom: 0; /* Eliminar cualquier espacio entre el header y el nav */
+            margin-bottom: 0;
         }
 
         nav {
             position: fixed;
-            top: 120px; /* Ajusta según el alto de tu header */
+            top: 120px; /* Ajustado para dejar espacio debajo del header */
             left: 0;
             width: 100%;
             background-color: #333;
@@ -37,7 +37,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 0;
+            margin-bottom: 30px; /* Añadido margen para evitar que tape el contenido */
         }
 
         nav a {
@@ -53,7 +53,7 @@
         }
 
         section {
-            margin-top: 0px;
+            margin-top: 30px; /* Añadido para que no se superponga con el nav */
             padding: 30px;
         }
 
@@ -92,16 +92,13 @@
         }
 
         footer {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
+            position: relative; /* Cambio de 'fixed' a 'relative' para evitar que tape el contenido */
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 5px 0; /* Reducido el padding para hacerlo más delgado */
-            font-size: 12px; /* Opcional: reducir el tamaño de la fuente */
-            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px 0; /* Padding ajustado */
+            font-size: 12px;
+            margin-top: 50px; /* Ajuste el espacio superior para evitar que tape el contenido */
             z-index: 999;
         }
 
@@ -128,6 +125,7 @@
     <a href="#pregunta4">Coneccion HADOOP</a>
 </nav>
 
+<!-- Primer párrafo que no será tapado -->
 <p>NO (Óxido de Nitrógeno) es un gas tóxico formado principalmente por la combustión de combustibles fósiles en vehículos y plantas industriales. 
     Este compuesto puede tener efectos adversos en la salud humana, especialmente en el sistema respiratorio, y también juega un papel importante en la formación de smog y lluvia ácida. 
     El NO es un precursor en la formación de otros contaminantes como el dióxido de nitrógeno (NO2), lo cual contribuye a la contaminación del aire.</p>
