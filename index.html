@@ -109,6 +109,9 @@
             border: 1px solid #ddd;
             border-radius: 8px;
         }
+        section:last-of-type {
+            margin-bottom: 150px;
+        }
 
     </style>
 </head>
@@ -124,12 +127,17 @@
     <a href="#pregunta2">GRAFICOS</a>
     <a href="#pregunta3">DASHBOARD</a>
     <a href="#pregunta4">Coneccion HADOOP</a>
+    <a href="#pregunta5">DATA CLEANING</a>
+    <a href="#pregunta6">DETECTAMOS Y ELIMINAMOS OUTLIERS</a>
+    <a href="#pregunta7">DATA ANALYTICS Y CONCLUSION</a> 
 </nav>
 
 <!-- Primer párrafo que no será tapado -->
 <p>NO (Óxido de Nitrógeno) es un gas tóxico formado principalmente por la combustión de combustibles fósiles en vehículos y plantas industriales. 
     Este compuesto puede tener efectos adversos en la salud humana, especialmente en el sistema respiratorio, y también juega un papel importante en la formación de smog y lluvia ácida. 
     El NO es un precursor en la formación de otros contaminantes como el dióxido de nitrógeno (NO2), lo cual contribuye a la contaminación del aire.</p>
+
+<h1>Ejercicio 8</h1>
 
 <!-- Contenido -->
 <section id="pregunta1">
@@ -167,6 +175,53 @@
     <img class="small-img" src="ind/con2.png" alt="con2">
     <br>
     <img class="small-img" src="ind/con3.png" alt="con3">
+    <br>
+</section>
+
+<h1>Ejercicio 10</h1>
+<br>
+<section id="pregunta5">
+<h2>DATA CLEANING</h2>
+    <p>Muestro los contaminantes con nulos</p>
+    <img class="small-img" src="ej10/cs101.png" alt="cs101>
+    <br>
+    <p>Elimino los nulos nulos</p>
+    <img class="small-img" src="ej10/cs102.png" alt="cs131>
+    <br>
+    <p>Muestro los contaminantes sin nulos</p>
+    <img class="small-img" src="ej10/cs103.png" alt="cs131>
+    <br>
+</section>
+<section id="pregunta6">
+<h2>DETECTAMOS Y ELIMINAMOS OUTLIERS</h2>
+    <p>Mostramos los outliers que superan los 5k, podríamos elejir a partir de los 6K, ya que són los que destacan bastante por encima de la mayoria. </p>
+    <img class="small-img" src="ej10/out1.png" alt="cs101>
+    <br>
+    <p>Eliminamos los outliers</p>
+    <img class="small-img" src="ej10/out2.png" alt="cs102>
+    <br>
+</section>
+<section id="pregunta7">
+<h2>DATA ANALYTICS Y CONCLUSION</h2>
+    <h2>Patrones de Estacionalidad Observados</h2>
+    <h3>NO (Óxido de Nitrógeno):</h3>
+    <ul>
+      <li><strong>Máximos:</strong> En invierno y otoño (enero y diciembre).</li>
+      <li><strong>Mínimos:</strong> En verano (junio, julio y agosto).</li>
+    </ul>
+    <p><strong>Causa:</strong> Durante el invierno, el aumento de combustión de combustibles fósiles y condiciones meteorológicas como bajas temperaturas y menor dispersión del aire elevan los niveles de NO.</p> 
+    <h3>O3 (Ozono Troposférico):</h3>
+    <ul>
+      <li><strong>Máximos:</strong> En primavera y verano (abril a julio).</li>
+      <li><strong>Mínimos:</strong> En invierno (enero y diciembre).</li>
+    </ul>
+    <p><strong>Causa:</strong> La formación de ozono está relacionada con la radiación solar. En primavera y verano, mayor luz solar aumenta los niveles de O3. En invierno, menor radiación y temperaturas reducen estas reacciones químicas.</p>
+    <img class="small-img" src="ej10/cs13.png" alt="cs101>
+    <br>
+        
+    <h2>Pronóstico Futuro:</h2>
+    <p>El análisis de pronóstico indica que los niveles de NO podrían seguir incrementándose en los próximos meses si no se implementan medidas correctivas. Las proyecciones incluyen una banda de intervalo de confianza que ilustra posibles fluctuaciones, aunque la tendencia general sigue siendo ascendente.</p>
+    <img class="small-img" src="ej10/cs14.png" alt="cs102>
     <br>
 </section>
 
